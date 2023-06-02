@@ -3,6 +3,7 @@
 
 ## Homework
 
+-Cкопировал репозиторий tp-labs №5
 ```console
 nikls@nikls-VirtualBox:~$ mkdir Lab5
 nikls@nikls-VirtualBox:~$ cd Lab5
@@ -20,6 +21,7 @@ nikls@nikls-VirtualBox:~/Lab5$ git remote remove origin
 nikls@nikls-VirtualBox:~/Lab5$ git remote add origin https://github.com/Nickls5/
 ```
 
+Добавил *googletest*
 ```console
 nikls@nikls-VirtualBox:~/Lab5$ git submodule add https://github.com/google/googletest
 Клонирование в «/home/nikls/Lab5/googletest»...
@@ -31,6 +33,7 @@ remote: Total 26402 (delta 9392), reused 9236 (delta 9233), pack-reused 16621
 Определение изменений: 100% (19622/19622), готово.
 ```
 
+Добавил *tests/test1.cpp*
 ```console
 nikls@nikls-VirtualBox:~/Lab5$ mkdir tests
 nikls@nikls-VirtualBox:~/Lab5$ cd tests
@@ -113,6 +116,7 @@ TEST(Transaction, SimpleTest) {
 [1]+  Остановлен    cat > test1.cpp
 ```
 
+Добавил *test.yaml*
 ```console
 nikls@nikls-VirtualBox:~/Lab5$ mkdir .github
 nikls@nikls-VirtualBox:~/Lab5$ cd .github
@@ -162,6 +166,7 @@ jobs:
 [2]+  Остановлен    cat > test.yaml
 ```
 
+Добавил *coverage/Icov.info*
 ```console
 nikls@nikls-VirtualBox:~/Lab5$ mkdir coverage
 nikls@nikls-VirtualBox:~/Lab5$ cd coverage
@@ -170,6 +175,7 @@ nikls@nikls-VirtualBox:~/Lab5/coverage$ cat > Icov.info
 [3]+  Остановлен    cat > Icov.info
 ```
 
+Запушил проект на сервер
 ```console
 nikls@nikls-VirtualBox:~/Lab5$ git add --all
 nikls@nikls-VirtualBox:~/Lab5$ git commit -m "First commit"
